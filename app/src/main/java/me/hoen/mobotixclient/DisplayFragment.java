@@ -3,6 +3,7 @@ package me.hoen.mobotixclient;
 
 import android.app.Fragment;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -54,13 +55,9 @@ public class DisplayFragment extends Fragment {
 
         String fullUrl;
 
-        /*
-        username = null;
-        password = null;
-        fullUrl = "http://trackfield.webcam.oregonstate.edu/axis-cgi/mjpg/video.cgi?resolution=800x600&amp%3bdummy=1333689998337";
-        */
-
         fullUrl = "http://" + host + getString(R.string.flux_path);
+
+        Log.d(MainActivity.TAG, fullUrl);
 
         mv = (MjpegView) rootView.findViewById(me.hoen.mobotixclient.R.id.mv);
 
