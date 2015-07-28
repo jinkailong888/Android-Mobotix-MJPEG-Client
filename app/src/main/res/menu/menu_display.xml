@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_back_to_login"
+        android:icon="@drawable/abc_ic_ab_back_mtrl_am_alpha"
+        android:title="@string/back_to_login"
+        app:showAsAction="always" />
+</menu>

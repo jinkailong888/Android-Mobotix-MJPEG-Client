@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MobotixClient</string>
+    <string name="flux_path">/control/faststream.jpg?stream=full&amp;fps=10&amp;needlength</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="host">IP</string>
+    <string name="display">Display</string>
+    <string name="empty_field">Empty field</string>
+    <string name="back_to_login">Back to login</string>
+</resources>
